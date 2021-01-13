@@ -23,7 +23,7 @@ root_path = "data/hospital"
 
 
 test = "ava/ava_annotations/person_box_67091280_iou90/ava_detection_val_boxes_and_labels.csv"
-# test = "/home/bong20/data/convalescent_hospital/val.csv"
+
 csv_f = open(test, 'r', encoding='utf-8')
 # csv_f.readline()
 # for ttt in csv_f:
