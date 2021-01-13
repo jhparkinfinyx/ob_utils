@@ -5,6 +5,7 @@ import math
 import natsort
 import numpy as np
 
+# 한 이미지 리드하는 코드 추가
 def ko_imread(filename, flags=cv2.IMREAD_COLOR, dtype=np.uint8):
     try:
         n = np.fromfile(filename, dtype)
