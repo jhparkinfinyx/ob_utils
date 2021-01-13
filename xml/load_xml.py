@@ -13,7 +13,7 @@ def ko_imread(filename, flags=cv2.IMREAD_COLOR, dtype=np.uint8):
         return img
     except Exception as e:
         return None
-
+# 한국어 이미지 저장 코드
 def ko_imwrite(filename, img, params=None):
     try:
         ext = os.path.splitext(filename)[1]
